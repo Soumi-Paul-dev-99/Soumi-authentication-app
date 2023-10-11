@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "68df1127-50e8-4138-811e-7cf3ff6e3294",
+		"name": "Authentication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25539307"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyNjdiNDM4OWFmMjI1MmFhOTM5YmQ2IiwiZW1haWwiOiJzcEBnbWFpbC5jaW4iLCJpYXQiOjE2OTcwMjA4MDYsImV4cCI6MTY5NzAzNTIwNn0.biyqCipESXELg8V2UhLKm0CNE1b9xG284d6RQccag5g",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"soumi\",\r\n    \"email\":\"spm@gmail.com\",\r\n    \"password\":\"1234567899\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyNjdiNDM4OWFmMjI1MmFhOTM5YmQ2IiwiZW1haWwiOiJzcEBnbWFpbC5jaW4iLCJpYXQiOjE2OTcwMjA4MDYsImV4cCI6MTY5NzAzNTIwNn0.biyqCipESXELg8V2UhLKm0CNE1b9xG284d6RQccag5g",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"soumi\",\r\n    \"email\":\"spm@gmail.com\",\r\n    \"password\":\"1234567899\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "auth welcome",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyNjdkMDI3NTVlNmM0NTI4NmEzYjBkIiwiZW1haWwiOiJzcG1AZ21haWwuY29tIiwiaWF0IjoxNjk3MDIxMjI2LCJleHAiOjE2OTcwMzU2MjZ9.7OlIkkJm4E1acSqxeS8rE3iv-Gipsw9PiHL0AizZfws",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"soumi\",\r\n    \"email\":\"spm@gmail.com\",\r\n    \"password\":\"1234567899\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/welcome",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"welcome"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update profile",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUyNjdkMDI3NTVlNmM0NTI4NmEzYjBkIiwiZW1haWwiOiJzcG1AZ21haWwuY29tIiwiaWF0IjoxNjk3MDIxMjI2LCJleHAiOjE2OTcwMzU2MjZ9.7OlIkkJm4E1acSqxeS8rE3iv-Gipsw9PiHL0AizZfws",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"soumi\",\r\n    \"email\":\"spm@gmail.com\",\r\n    \"password\":\"1234567899\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/welcome",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"welcome"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
